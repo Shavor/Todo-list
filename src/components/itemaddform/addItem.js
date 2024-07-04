@@ -24,7 +24,7 @@ const AddItem = ({ addItem }) => {
         onChange={onLabelChang}
       />
       <button
-        onClick={() => addItem("Privet")}
+        onClick={() => addItem(label)}
         type="submit"
         className="btn btn-add-item btn-outline-secondary"
       >
